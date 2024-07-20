@@ -47,6 +47,13 @@
        color: rgb(153, 153, 226);
        font-size: 1.02rem;
     }
+    main hr {
+        border: 0;
+        background-color: #9c97f1;
+        height: 1.2px ;
+        margin: 40px 84px;
+
+    }
     .left{
         font-size: 1.5rem;
     }
@@ -54,7 +61,7 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
-        margin: 80px 0;
+        margin: 130px 0;
         
     }
     .firstsection > div {
@@ -77,7 +84,34 @@
     .secondsection {
         max-width: 80vw;
         margin: auto;
+        height: 80vh;
 
+    }
+    .secondsection h1 {
+        font-size: 1.9rem;
+
+    }
+    .textgray {
+        color: grey;
+    }
+    .secondsection .box {
+        background-color: white;
+        width: 80vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+    }
+    .secondsection .vertical {
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0 100px;
+    }
+    .image-top {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
     }
 
 </style>
@@ -111,7 +145,24 @@
         </section>
   <hr>      
         <section class="secondsection">
+            <span class="textgray">What I have Done So far?</span>
             <h1>Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical_text">
+                        HTML developer
+                    </div>
+                    <div class="vertical-desc">
+                        An HTML developer crafts web pages using HTML, CSS, and JavaScript, ensuring structure, design, and functionality align with user and business needs.
+                    </div>
+                </div>
+                <div class="vertical">
+                    Node.js Developer
+                </div>
+                <div class="vertical"></div>
+                <div class="vertical"></div>
+            </div>
         </section>
     </main>
     
