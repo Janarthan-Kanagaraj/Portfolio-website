@@ -195,3 +195,30 @@ footer .footer-rights {
     background-color: white;
     color: #1e2167;
 }
+.intro h2 {
+    font-family: poppins;
+    margin: 12px;
+}
+.skillcontainer {
+    padding: 12px;
+}
+.skillitem {
+    display: flex;
+    align-items: center;
+}
+.skill {
+    width: 265px;
+    height: 6px;
+    background-color: #9c97f1;
+    border: 2px solid blue;
+}
+.hundered {
+    width: 265px;
+}
+.fifty {
+    width: 125px;
+}
+.t5 {
+    width: 75px;
+    background-color: #9c97f1;
+}
