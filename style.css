@@ -222,3 +222,26 @@ footer .footer-rights {
     width: 75px;
     background-color: #9c97f1;
 }
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: var(--snd--bg-color);
+
+}
+.about-img img {
+    width: 35vw;
+}
+.heading {
+    text-align: center;
+    font-size: 4.5rem;
+}
+.about-content h2 {
+    text-align: left;
+    line-height: 1.2;
+}
+.about-content h3 {
+      font-size: 1.6rem;
+      margin: 2rem 0 3rem;
+}
